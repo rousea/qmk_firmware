@@ -67,9 +67,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * ,---------------------------------------------------.           ,--------------------------------------------------.
  * |Version  |  F1  |  F2  |  F3  |  F4  |  F5  |      |           |      |  F6  |  F7  |  F8  |  F9  |  F10 |   F11  |
  * |---------+------+------+------+------+------+------|           |------+------+------+------+------+------+--------|
- * |         |   !  |   @  |   {  |   }  |   |  |      |           |      |   Up |   7  |   8  |   9  |   *  |   F12  |
+ * |         |   !  |   @  |  Up  |   }  |   |  |      |           |      |   Up |   7  |   8  |   9  |   *  |   F12  |
  * |---------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
- * |         |   #  |   $  |   (  |   )  |   `  |------|           |------| Down |   4  |   5  |   6  |   +  |        |
+ * |         |   #  | Left | Down | Right|   `  |------|           |------| Down |   4  |   5  |   6  |   +  |        |
  * |---------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * |         |   %  |   ^  |   [  |   ]  |   ~  |      |           |      |   &  |   1  |   2  |   3  |   \  |        |
  * `---------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
@@ -87,8 +87,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [SYMB] = LAYOUT_ergodox(
        // left hand
        VRSN,   KC_F1,  KC_F2,  KC_F3,  KC_F4,  KC_F5,  KC_TRNS,
-       KC_TRNS,KC_EXLM,KC_AT,  KC_LCBR,KC_RCBR,KC_PIPE,KC_TRNS,
-       KC_TRNS,KC_HASH,KC_DLR, KC_LPRN,KC_RPRN,KC_GRV,
+       KC_TRNS,KC_EXLM,KC_AT,  KC_UP,  KC_RCBR,KC_PIPE,KC_TRNS,
+       KC_TRNS,KC_HASH,KC_LEFT,KC_DOWN,KC_RGHT,KC_GRV,
        KC_TRNS,KC_PERC,KC_CIRC,KC_LBRC,KC_RBRC,KC_TILD,KC_TRNS,
           EPRM,KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
                                        RGB_MOD,KC_TRNS,
