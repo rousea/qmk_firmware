@@ -1,3 +1,0 @@
-To build & flash:
-  make ergodox_ez:rouse:teensy
-  reset board
